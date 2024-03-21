@@ -1,0 +1,38 @@
+body{
+     
+}
+.container{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "nav nav"
+    "sidebar content"
+    "footer footer";
+}
+
+header{
+    grid-area: header;
+    background-color:beige
+}
+
+nav{
+    grid-area: nav;
+    background-color: blue;
+}
+
+aside{
+    grid-area: sidebar;
+    background-color: antiquewhite;
+}
+
+.content{
+    grid-area: content;
+    background-color: aliceblue;
+}
+
+footer{
+    grid-area: footer;
+    background-color: aqua;
+}
+
+    
